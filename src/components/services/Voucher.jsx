@@ -1,6 +1,6 @@
 export default function Voucher() {
   return (
-    <div className="pl-2 tracking-tight font-bold antialiased mx-auto bg-yellow-400 mt-10 h-20 w-[18rem] flex items-center justify-center relative overflow-hidden clip-path-notched-br">
+    <div className="pl-3 tracking-tight font-bold antialiased mx-auto bg-yellow-400 h-20 w-[18rem] flex items-center justify-center relative overflow-hidden clip-path-notched-br">
       <div className="h-[80%] border-2 border-white border-dashed whitespace-nowrap p-2 flex items-center">
         <div className="flex items-baseline">
           <h1 className="text-4xl">

@@ -1,6 +1,6 @@
 export default function RequestForm() {
   return (
-    <div className="relative top-10 w-[90%] mx-auto bg-white flex flex-col h-[17rem] pb-2 shadow-md">
+    <div className="relative w-[90%] mx-auto bg-white flex flex-col h-[17rem] pb-2 shadow-md">
       <div className="flex items-center justify-around pt-4 mb-6">
         <h1 className="mt-4 text-black/90 leading-none tracking-tighter font-bold antialiased text-3xl">
           Describe your <span className="text-blue-500/100">plumbing</span>{" "}
