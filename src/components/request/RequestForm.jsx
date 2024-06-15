@@ -13,7 +13,7 @@ export default function RequestForm() {
           You will receive a response within minutes
         </p>
       </div>
-      <form className="w-[90%] px-10 pb-12">
+      <form className="w-[90%] px-10 pb-8">
         <input
           className="border border-slate-300 mb-4 w-full p-2"
           type="text"

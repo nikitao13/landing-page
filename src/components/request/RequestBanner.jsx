@@ -1,5 +1,6 @@
 import phone from "../../assets/phone-hand.png";
 import RequestForm from "./RequestForm";
+import Voucher from "../services/Voucher";
 
 export default function RequestBanner() {
   return (
@@ -27,6 +28,7 @@ export default function RequestBanner() {
           </div>
         </div>
         <RequestForm />
+        <Voucher />
       </div>
     </div>
   );
