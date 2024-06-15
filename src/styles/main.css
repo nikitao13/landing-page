@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @layer utilities {
+  .clip-path-left {
+    clip-path: polygon(0 0, 100% 0, 97% 100%, 0% 100%);
+  }
+  .clip-path-right {
+    clip-path: polygon(3% 0, 100% 0, 100% 100%, 0% 100%);
+  }
+} */
+@layer utilities {
+  .skew-x-left {
+    transform: skewX(-5deg);
+  }
+  .skew-x-right {
+    transform: skewX(5deg);
+  }
+}

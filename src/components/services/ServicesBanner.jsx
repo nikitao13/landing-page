@@ -1,4 +1,4 @@
-import Ribbon from './Ribbon';
+import Ribbon from "./Ribbon";
 
 export default function ServicesBanner() {
   return (
@@ -14,17 +14,30 @@ export default function ServicesBanner() {
           </p>
         </div>
       </div>
-      <div className="w-full h-[50vh] flex flex-col gap-6">
+      <div className="w-full h-full flex flex-col gap-6">
         <div className="w-full text-white flex gap-4 justify-center">
-          {['Blocked Drains', 'Hot Water', 'Leaking Pipes', 'Gas Fitting'].map((service, index) => (
-            <div key={index} className="relative bg-gray-500/70 h-[200px] w-[300px]">
-              <Ribbon text={service.toUpperCase()} />
-            </div>
-          ))}
+          {["Blocked Drains", "Hot Water", "Leaking Pipes", "Gas Fitting"].map(
+            (service, index) => (
+              <div
+                key={index}
+                className="relative bg-gray-500/70 h-[210px] w-[310px]"
+              >
+                <Ribbon text={service.toUpperCase()} />
+              </div>
+            )
+          )}
         </div>
         <div className="w-full text-white flex gap-4 justify-center">
-          {['Leaking Taps', 'Pipe Relining', 'Leaking Toilets', 'Leak Detection'].map((service, index) => (
-            <div key={index} className="relative bg-gray-500/70 h-[200px] w-[300px]">
+          {[
+            "Leaking Taps",
+            "Pipe Relining",
+            "Leaking Toilets",
+            "Leak Detection"
+          ].map((service, index) => (
+            <div
+              key={index}
+              className="relative bg-gray-500/70 h-[210px] w-[310px]"
+            >
               <Ribbon text={service.toUpperCase()} />
             </div>
           ))}
