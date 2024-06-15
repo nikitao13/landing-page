@@ -19,7 +19,13 @@ export default function Banner() {
         />
         <div className="gap-4 w-[40vw] ml-20 mt-12 absolute inset-0 flex flex-col justify-start items-start p-8">
           <h1 className="max-w-[475px] min-w-[448px] leading-[4.85rem] text-white text-7xl font-extrabold antialiased tracking-tight">
-            YOUR LOCAL <span className="pl-2 pr-12 bg-blue-500/80">HOT WATER</span>{" "}
+            YOUR LOCAL{" "}
+            <div
+              className="relative inline-block pl-2 pr-14 bg-blue-500/80"
+              style={{ clipPath: "polygon(0 0, 100% 0, 93% 100%, 0% 100%)" }}
+            >
+              HOT WATER
+            </div>{" "}
             EXPERTS
           </h1>
           <ul className="mt-4 text-white text-lg">
