@@ -4,7 +4,7 @@ import { HiOutlineWrenchScrewdriver } from "react-icons/hi2";
 
 export default function DeliverBanner() {
   return (
-    <div className="flex h-[600px] w-[120%] overflow-hidden mb-4 gap-2">
+    <div className="flex h-[600px] w-[120%] overflow-hidden gap-2">
       <div className="py-20 px-28 text-white -skew-x-12 -ml-20 bg-blue-500 h-full w-[50%] flex flex-col">
         <h1 className="text-5xl font-bold skew-x-12">What we deliver</h1>
         <p className="max-w-[85%] ml-6 mt-8 skew-x-12 tracking-wider font-thin">

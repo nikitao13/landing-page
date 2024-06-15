@@ -8,6 +8,8 @@ import ServicesBanner from "./components/services/ServicesBanner";
 import DeliverHeader from "./components/deliver/DeliverHeader";
 import ServicesFooter from "./components/services/ServicesFooter";
 import DeliverBanner from "./components/deliver/DeliverBanner";
+import FaqsBanner from "./components/faqs/FaqsBanner";
+import LogoBanner from "./components/logobanner/LogoBanner";
 
 function App() {
   return (
@@ -37,6 +39,10 @@ function App() {
         <DeliverHeader />
         <DeliverBanner />
       </div>
+      <div className="bg-gray-100">
+        <FaqsBanner />
+      </div>
+      <LogoBanner />
     </div>
   );
 }
