@@ -11,6 +11,8 @@ import DeliverBanner from "./components/deliver/DeliverBanner";
 import FaqsBanner from "./components/faqs/FaqsBanner";
 import LogoBanner from "./components/logobanner/LogoBanner";
 import ClientsBanner from "./components/clients/ClientsBanner";
+import BookBanner from "./components/book/BookBanner";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -44,7 +46,17 @@ function App() {
         <FaqsBanner />
       </div>
       <LogoBanner />
-      <ClientsBanner />
+      <div className="bg-blue-900">
+        <div className="bg-gray-100 clip-path-notched-bl">
+          
+          <ClientsBanner />
+          
+          <BookBanner />
+          </div>
+        </div>
+      <div className="h-400px">
+        <Footer />
+      </div>
     </div>
   );
 }

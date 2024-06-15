@@ -1,5 +1,8 @@
 import sink from "../../assets/sink.jpg";
 import plumber from "../../assets/plumber.png";
+import { HiOutlineWrenchScrewdriver } from "react-icons/hi2";
+import { IoCallOutline } from "react-icons/io5";
+import { FaLaptop } from "react-icons/fa";
 
 export default function Banner() {
   return (
@@ -31,7 +34,9 @@ export default function Banner() {
           <ul className="mt-4 text-white text-lg">
             <li>
               <div className="flex gap-4 h-[5rem] min-w-[285px] whitespace-nowrap">
-                <div className="self-start h-[4.5rem] w-[4.5rem] bg-blue-500/90 rounded-full"></div>
+                <div className="self-start flex items-center justify-center text-4xl h-[4.5rem] w-[4.5rem] bg-blue-500/90 rounded-full">
+                  <HiOutlineWrenchScrewdriver />
+                </div>
                 <div className="self-center">
                   <h2 className="font-semibold text-xl tracking-wider">
                     Upfront pricing
@@ -44,7 +49,9 @@ export default function Banner() {
             </li>
             <li>
               <div className="flex gap-4 h-[5rem]">
-                <div className="self-start h-[4.5rem] w-[4.5rem] bg-blue-500/90 rounded-full"></div>
+                <div className="self-start flex items-center justify-center text-4xl h-[4.5rem] w-[4.5rem] bg-blue-500/90 rounded-full">
+                  <IoCallOutline />
+                </div>{" "}
                 <div className="self-center">
                   <h2 className="font-semibold text-xl tracking-wider">
                     $0 Call out
@@ -57,7 +64,9 @@ export default function Banner() {
             </li>
             <li>
               <div className="flex gap-4 h-[5rem]">
-                <div className="self-start h-[4.5rem] w-[4.5rem] bg-blue-500/90 rounded-full"></div>
+                <div className="self-start flex items-center justify-center text-4xl h-[4.5rem] w-[4.5rem] bg-blue-500/90 rounded-full">
+                  <FaLaptop />
+                </div>{" "}
                 <div className="self-center">
                   <h2 className="font-semibold text-xl tracking-wider">
                     $50 off for online bookings
