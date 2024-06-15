@@ -4,6 +4,7 @@ import Banner from "./components/banner/Banner";
 import RequestBanner from "./components/request/RequestBanner";
 import RequestForm from "./components/request/RequestForm";
 import Voucher from "./components/services/Voucher";
+import ServicesBanner from "./components/services/ServicesBanner";
 
 function App() {
   return (
@@ -24,8 +25,7 @@ function App() {
         </div>
         <Voucher />
       </div>
-      <div>
-      </div>
+      <ServicesBanner />
     </div>
   );
 }
