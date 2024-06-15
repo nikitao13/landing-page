@@ -1,6 +1,6 @@
 export default function LogoBanner() {
   return (
-    <div className="flex bg-gray-300 w-full h-[30vh]">
+    <div className="flex bg-gray-300 w-full h-[350px]">
       <div className="w-2/6 flex items-center justify-center">
         <div className="h-[250px] w-[250px] bg-white rounded-full flex items-center justify-center">
           <h1 className="font-bold text-5xl text-blue-900">LOGO</h1>
