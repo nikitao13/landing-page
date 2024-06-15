@@ -42,22 +42,21 @@ function App() {
       <div className="overflow-hidden max-w-[1700px]">
         <DeliverHeader />
         <DeliverBanner />
+        <RepairOverlay />
       </div>
       <div className="bg-gray-100">
         <FaqsBanner />
       </div>
       <LogoBanner />
       <div className="bg-blue-900">
-        <div className="bg-gray-100 clip-path-notched-bl">
-          
+        <div className="bg-gray-100 clip-path-notched-bl -mr-1">
           <ClientsBanner />
-          
+
           <BookBanner />
-          </div>
         </div>
+      </div>
       <div className="h-400px">
         <Footer />
-        {/* <RepairOverlay /> */}
       </div>
     </div>
   );

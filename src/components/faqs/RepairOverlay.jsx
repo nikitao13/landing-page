@@ -2,8 +2,8 @@ import paymentCard from "../../assets/payment-card.png";
 
 export default function RepairOverlay() {
   return (
-    <div className="items-center antialiased flex flex-col h-[410px]">
-      <div className="h-58 w-[85%] bg-blue-900 text-white flex">
+    <div className="items-center antialiased flex flex-col h-[420px] bg-gray-100">
+      <div className="h-3/4 w-[85%] bg-blue-900 text-white flex">
         <div className="w-1/4 flex justify-center items-center">
           <div className="bg-white h-[180px] w-[180px] rounded-full flex items-center justify-center">
             <h1 className="text-blue-900 font-extrabold text-[2.25rem]">
@@ -30,7 +30,7 @@ export default function RepairOverlay() {
           />
         </div>
       </div>
-      <div className="flex w-[85%] h-full bg-white text-black text-center relative">
+      <div className="flex w-[85%] h-1/4 bg-white text-black text-center relative">
         <div className=" w-1/3 h-full bg-red-500 flex justify-center items-center relative">
           <div className="w-full flex justify-center items-center gap-4">
             <h1 className="text-white text-5xl font-extrabold">01</h1>
@@ -49,7 +49,7 @@ export default function RepairOverlay() {
               <p className="w-3/4 tracking wide text-sm">Pay it off in small, affordable installments.</p>
             </div>
           </div>
-          <div className="border-r-2 border-gray h-[80%]"></div>
+          <div className="border-l-2 border-gray h-[80%]"></div>
         </div>
         <div className="w-1/3 h-full bg-blue-500 flex justify-center items-center relative">
           <div className="w-full flex justify-center items-center gap-4">
