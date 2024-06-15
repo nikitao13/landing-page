@@ -13,6 +13,7 @@ import LogoBanner from "./components/logobanner/LogoBanner";
 import ClientsBanner from "./components/clients/ClientsBanner";
 import BookBanner from "./components/book/BookBanner";
 import Footer from "./components/footer/Footer";
+import RepairOverlay from "./components/faqs/RepairOverlay";
 
 function App() {
   return (
@@ -56,6 +57,7 @@ function App() {
         </div>
       <div className="h-400px">
         <Footer />
+        {/* <RepairOverlay /> */}
       </div>
     </div>
   );
