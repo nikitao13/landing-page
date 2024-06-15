@@ -10,6 +10,7 @@ import ServicesFooter from "./components/services/ServicesFooter";
 import DeliverBanner from "./components/deliver/DeliverBanner";
 import FaqsBanner from "./components/faqs/FaqsBanner";
 import LogoBanner from "./components/logobanner/LogoBanner";
+import ClientsBanner from "./components/clients/ClientsBanner";
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
         <FaqsBanner />
       </div>
       <LogoBanner />
+      <ClientsBanner />
     </div>
   );
 }
