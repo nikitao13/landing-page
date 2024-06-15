@@ -3,14 +3,6 @@ import DeliverSticker from "./DeliverSticker";
 import { HiOutlineWrenchScrewdriver } from "react-icons/hi2";
 
 export default function DeliverBanner() {
-  const styles = {
-    sticker:
-      "bg-white h-[170px] w-[270px] pr-4 skew-x-6 flex flex-col items-start",
-    icon: "text-blue-500 text-6xl m-4",
-    header:
-      "mt-8 max-w-max text-blue-500 font-extrabold leading-5 skew-x-6 text-2xl"
-  };
-
   return (
     <div className="flex h-[600px] w-[120%] overflow-hidden mb-4 gap-2">
       <div className="py-20 px-28 text-white -skew-x-12 -ml-20 bg-blue-500 h-full w-[50%] flex flex-col">
