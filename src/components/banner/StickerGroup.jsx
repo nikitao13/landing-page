@@ -7,15 +7,15 @@ export default function StickerGroup() {
         num={"4.9"}
         text={"Facebook"}
         rating={true}
-        colour={"bg-blue-500"}
+        colour={"bg-sticker-blue"}
       />
       <BannerSticker
         num={"5.0"}
         text={"Google"}
         rating={true}
-        colour={"bg-red-600"}
+        colour={"bg-sticker-red"}
       />
-      <div className="antialiased leading-snug -skew-x-12 relative flex flex-col items-center justify-center bg-yellow-400 w-40 h-44">
+      <div className="antialiased leading-snug -skew-x-12 relative flex flex-col items-center justify-center bg-sticker-yellow w-40 h-44">
         <div className="text-[3.8rem] font-black skew-x-12 flex flex-col items-center justify-center">
           <h1>24h</h1>
         </div>

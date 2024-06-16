@@ -10,7 +10,7 @@ export default function BookBanner() {
     <div className="flex gap-12 w-full px-24 mb-8 h-[550px]">
       <div className="flex flex-col h-[80%] w-2/3 -mt-6">
         <h1 className="font-extrabold text-[4.2rem] mb-10">
-          Book a <span className="text-blue-500">plumber</span> near you
+          Book a <span className="text-light-blue">plumber</span> near you
         </h1>
         <form>
           <div className={formStyles.row}>
@@ -55,7 +55,7 @@ export default function BookBanner() {
             />
             <button
               type="submit"
-              className="bg-blue-500 text-white flex justify-center items-center font-semibold"
+              className="bg-light-blue text-white flex justify-center items-center font-semibold"
               style={{ width: "calc(33.333% - 0.5rem)" }}
             >
               Get a free quote

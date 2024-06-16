@@ -3,7 +3,7 @@ export default function LogoBanner() {
     <div className="flex bg-gray-300 w-full h-[400px]">
       <div className="w-2/6 flex items-center justify-center">
         <div className="h-[250px] w-[250px] bg-white rounded-full flex items-center justify-center">
-          <h1 className="font-bold text-5xl text-blue-900">LOGO</h1>
+          <h1 className="font-bold text-5xl text-[#024881]">LOGO</h1>
         </div>
       </div>
 
@@ -17,7 +17,7 @@ export default function LogoBanner() {
           and technical expertise, is what sets us apart.
         </p>
         <p className="text-sm tracking-wide">
-          Get started today with <a className="text-blue-500 underline" href="#">plumbing example</a>
+          Get started today with <a className="text-light-blue underline" href="#">plumbing example</a>
         </p>
       </div>
     </div>

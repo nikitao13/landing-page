@@ -7,7 +7,7 @@ export default function RequestBanner() {
       <div className="antialiased h-auto justify-between pl-20 pr-5 flex w-full -mb-8">
         <div className="flex flex-col w-[45%] py-8">
           <h1 className="w-[90%] mb-8 text-[3.9rem] leading-none tracking-tight font-bold text-black/90">
-            Request a <span className="text-blue-500">fast</span> quote today
+            Request a <span className="text-light-blue">fast</span> quote today
           </h1>
           <p className="tracking-wider">
             We are industry leaders providing quality plumbing, drainage, hot

@@ -11,7 +11,7 @@ export default function FaqsBanner() {
   return (
     <div className="px-12 antialiased">
       <h1 className="font-bold text-5xl mt-12 mb-5">
-        Plumber sydney <span className="text-blue-500">faqs</span>
+        Plumber sydney <span className="text-light-blue">faqs</span>
       </h1>
       <p className="text-[0.95rem] mb-6 tracking-wide">
         We are industry leaders providing quality plumbing, drainage, hot water,
@@ -52,10 +52,10 @@ export default function FaqsBanner() {
         </div>
 
         <div className="flex mt-12 w-full justify-center mb-10">
-        <div className={`${faqStyles.sticker} bg-blue-500`}>
-        <p className={faqStyles.stickerText}>1300 000 000</p>
+          <div className={`${faqStyles.sticker} bg-light-blue`}>
+            <p className={faqStyles.stickerText}>1300 000 000</p>
           </div>
-          <div className={`${faqStyles.sticker} bg-blue-900`}>
+          <div className={`${faqStyles.sticker} bg-[#024881]`}>
             <p className={faqStyles.stickerText}>Get a free quote</p>
           </div>
         </div>

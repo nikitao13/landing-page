@@ -6,7 +6,7 @@ export default function ServicesBanner() {
       <div className="antialiased flex flex-col w-full items-center mt-6 mb-12">
         <div>
           <h1 className="font-bold tracking-tight text-5xl text-center mb-4">
-            Plumbing <span className="text-blue-500">services</span> we offer
+            Plumbing <span className="text-light-blue">services</span> we offer
           </h1>
           <p className="tracking-wide w-[75%] text-center mx-auto">
             We are industry leaders providing quality plumbing, drainage, hot

@@ -5,8 +5,8 @@ export default function ClientsBanner() {
   const clientStyles = {
     name: "text-2xl font-medium",
     text: "text-sm leading-6 tracking-wide mb-2",
-    place: "text-blue-500 font-bold text-lg tracking-wide",
-    icon: "text-blue-500 text-5xl scale-x-[-1]",
+    place: "text-light-blue font-bold text-lg tracking-wide",
+    icon: "text-light-blue text-5xl scale-x-[-1]",
     container: "flex flex-col w-[300px] items-center text-center"
   };
   return (

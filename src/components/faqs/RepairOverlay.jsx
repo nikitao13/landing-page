@@ -2,14 +2,14 @@ import paymentCard from "../../assets/payment-card.png";
 
 export default function RepairOverlay() {
   const styles = {
-    num: "text-blue-500 text-5xl font-extrabold",
+    num: "text-light-blue text-5xl font-extrabold",
     title: "font-extrabold text-xl mt-2",
     text: "tracking wide text-sm",
     container: "w-1/3 h-full flex justify-center items-center relative"
   };
   return (
     <div className="relative items-center antialiased flex flex-col h-[380px] -mt-12">
-      <div className="h-3/4 w-[85%] bg-blue-900 text-white flex">
+      <div className="h-3/4 w-[85%] bg-[#024881] text-white flex">
         <div className="w-1/4 flex justify-center items-center">
           <div className="bg-white h-[180px] w-[180px] rounded-full flex items-center justify-center">
             <h1 className="text-blue-900 font-extrabold text-[2.25rem]">
@@ -27,7 +27,7 @@ export default function RepairOverlay() {
               <p>1300 000 000</p>
             </div>
 
-            <div className="border border-white py-3 px-5 bg-white text-blue-500">
+            <div className="border border-white py-3 px-5 bg-white text-light-blue">
               <p>Get a free quote</p>
             </div>
           </div>

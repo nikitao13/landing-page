@@ -1,11 +1,12 @@
 import BgImage from "../../assets/fixing.webp";
 import DeliverSticker from "./DeliverSticker";
 import { HiOutlineWrenchScrewdriver } from "react-icons/hi2";
+import { HiOutlineClipboardDocumentCheck } from "react-icons/hi2";
 
 export default function DeliverBanner() {
   return (
     <div className="flex h-[600px] w-[120%] overflow-hidden gap-2">
-      <div className="py-20 px-28 text-white -skew-x-12 -ml-20 bg-blue-500 h-full w-[50%] flex flex-col">
+      <div className="py-20 px-28 text-white -skew-x-12 -ml-20 bg-light-blue h-full w-[50%] flex flex-col">
         <h1 className="text-5xl font-bold skew-x-12">What we deliver</h1>
         <p className="max-w-[85%] ml-6 mt-8 skew-x-12 tracking-wider font-thin">
           As a family-owned business, we take immense pride in offering a 24/7
@@ -22,7 +23,7 @@ export default function DeliverBanner() {
             text="We pride ourselves on our workmanship and guarantee our service."
           />
           <DeliverSticker
-            Icon={HiOutlineWrenchScrewdriver}
+            Icon={HiOutlineClipboardDocumentCheck}
             title="Fully licensed & insured"
             text="Our professionals are reliable and provide compliance certificates for your peace of mind."
           />

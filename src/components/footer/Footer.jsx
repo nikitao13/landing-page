@@ -5,10 +5,10 @@ export default function Footer() {
     text: "text-base tracking-tight"
   };
   return (
-    <div className="h-[390px] bg-blue-900 w-full antialiased">
+    <div className="h-[390px] bg-[#003256] w-full antialiased">
       <div className="flex w-full justify-between px-28  pb-12 pt-10">
         <div className="w-1/4 flex h-[120px] rounded-lg bg-white items-center justify-center">
-          <h1 className="text-5xl font-extrabold text-blue-900">LOGO</h1>
+          <h1 className="text-5xl font-extrabold text-[#003256]">LOGO</h1>
         </div>
         <div className={footerStyles.col}>
           <h1 className={footerStyles.title}>Services</h1>

@@ -11,7 +11,7 @@ export default function RequestForm() {
     <div className="h-[260px] pt-3.5 relative w-[90%] mx-auto bg-white flex gap-4 flex-col pb-2 shadow-md">
       <div className="flex items-center justify-between px-8 pt-4 mb-4 gap-3 pr-16">
         <h1 className="pl-3 w-max mt-2 text-black/90 leading-none tracking-tighter font-bold antialiased text-3xl">
-          Describe your <span className="text-blue-500/100">plumbing</span>{" "}
+          Describe your <span className="text-light-blue">plumbing</span>{" "}
           requirement to get a quote
         </h1>
         <div className="flex text-xs gap-5 mt-4">
@@ -63,7 +63,7 @@ export default function RequestForm() {
           />
           <button
             type="submit"
-            className="bg-blue-500 text-white flex justify-center items-center font-semibold"
+            className="bg-light-blue text-white flex justify-center items-center font-semibold"
             style={{ width: "calc(25% - 0.75rem)" }}
           >
             Get a free quote

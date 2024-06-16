@@ -25,7 +25,7 @@ export default function Banner() {
           <h1 className="max-w-[475px] min-w-[448px] leading-[4.85rem] text-white text-7xl font-extrabold antialiased tracking-tight">
             YOUR LOCAL{" "}
             <div
-              className="relative inline-block pl-2 pr-14 bg-blue-500/80"
+              className="relative inline-block pl-2 pr-14 bg-[#017bff]/85"
               style={{ clipPath: "polygon(0 0, 100% 0, 93% 100%, 0% 100%)" }}
             >
               HOT WATER
@@ -35,7 +35,7 @@ export default function Banner() {
           <ul className="mt-4 text-white text-lg">
             <li>
               <div className="flex gap-4 h-[5rem] min-w-[285px] whitespace-nowrap">
-                <div className="self-start flex items-center justify-center text-4xl h-[4.5rem] w-[4.5rem] bg-blue-500/90 rounded-full">
+                <div className="self-start flex items-center justify-center text-[2.5rem] h-[4.5rem] w-[4.5rem] bg-light-blue/90 rounded-full">
                   <HiOutlineWrenchScrewdriver />
                 </div>
                 <div className="self-center">
@@ -50,7 +50,7 @@ export default function Banner() {
             </li>
             <li>
               <div className="flex gap-4 h-[5rem]">
-                <div className="self-start flex items-center justify-center text-4xl h-[4.5rem] w-[4.5rem] bg-blue-500/90 rounded-full">
+                <div className="self-start flex items-center justify-center text-[2.5rem] h-[4.5rem] w-[4.5rem] bg-light-blue/90 rounded-full">
                   <IoCallOutline />
                 </div>{" "}
                 <div className="self-center">
@@ -65,7 +65,7 @@ export default function Banner() {
             </li>
             <li>
               <div className="flex gap-4 h-[5rem]">
-                <div className="self-start flex items-center justify-center text-4xl h-[4.5rem] w-[4.5rem] bg-blue-500/90 rounded-full">
+                <div className="self-start flex items-center justify-center text-[2.5rem] h-[4.5rem] w-[4.5rem] bg-light-blue/90 rounded-full">
                   <FaLaptop />
                 </div>{" "}
                 <div className="self-center">
@@ -83,7 +83,6 @@ export default function Banner() {
         <div className="absolute bottom-0 right-10 w-full flex justify-end">
           <StickerGroup />
         </div>
-
       </div>
     </div>
   );

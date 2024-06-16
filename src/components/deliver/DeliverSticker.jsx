@@ -4,9 +4,9 @@ export default function DeliverSticker({ Icon, title, text }) {
   const styles = {
     sticker:
       "bg-white h-[160px] w-[270px] pr-4 skew-x-6 flex flex-col items-start",
-    icon: "text-blue-500 text-6xl m-4",
+    icon: "text-light-blue text-6xl m-4 skew-x-6",
     header:
-      "mt-8 max-w-max text-blue-500 font-extrabold leading-5 skew-x-6 text-2xl",
+      "mt-8 max-w-max text-light-blue font-extrabold leading-5 skew-x-6 text-2xl",
     text:
         "skew-x-6 text-black pl-5 mt-0.5 leading-4 text-sm font-light"
   };

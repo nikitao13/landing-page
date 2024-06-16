@@ -48,7 +48,7 @@ function App() {
         <FaqsBanner />
       </div>
       <LogoBanner />
-      <div className="bg-blue-900">
+      <div className="bg-[#003256]">
         <div className="bg-gray-100 clip-path-notched-bl -mr-1">
           <ClientsBanner />
 
