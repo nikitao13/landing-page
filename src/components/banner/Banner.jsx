@@ -3,6 +3,7 @@ import plumber from "../../assets/plumber.png";
 import { HiOutlineWrenchScrewdriver } from "react-icons/hi2";
 import { IoCallOutline } from "react-icons/io5";
 import { FaLaptop } from "react-icons/fa";
+import StickerGroup from "./StickerGroup";
 
 export default function Banner() {
   return (
@@ -79,6 +80,10 @@ export default function Banner() {
             </li>
           </ul>
         </div>
+        <div className="absolute bottom-0 right-10 w-full flex justify-end">
+          <StickerGroup />
+        </div>
+
       </div>
     </div>
   );
