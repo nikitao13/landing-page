@@ -39,7 +39,7 @@ function App() {
       </div>
       <ServicesBanner />
       <ServicesFooter />
-      <div className="overflow-hidden max-w-[1700px]">
+      <div className="overflow-hidden max-w-[1700px] bg-gray-100">
         <DeliverHeader />
         <DeliverBanner />
         <RepairOverlay />
