@@ -3,13 +3,13 @@ import { FaPlus } from "react-icons/fa";
 export default function FaqsBanner() {
   const faqStyles = {
     items:
-      "pb-4 h-[45px] border-b-2 border-dashed border-black/20 mt-8 font-semibold flex justify-between items-center",
+      "hover:opacity-70 hover:cursor-pointer pb-4 h-[45px] border-b-2 border-dashed border-black/20 mt-8 font-semibold flex justify-between items-center",
     col: "flex flex-col w-1/2",
     sticker: "-skew-x-12 border border-white py-3 px-4 mx-1.5",
     stickerText: "skew-x-12 font-bold tracking-tight text-sm text-white"
   };
   return (
-    <div className="px-12 antialiased">
+    <section className="px-12 antialiased">
       <h1 className="font-bold text-5xl mt-12 mb-5">
         Plumber sydney <span className="text-light-blue">faqs</span>
       </h1>
@@ -52,14 +52,14 @@ export default function FaqsBanner() {
         </div>
 
         <div className="flex mt-12 w-full justify-center mb-10">
-          <div className={`${faqStyles.sticker} bg-light-blue`}>
+          <div className={`${faqStyles.sticker} bg-light-blue hover:opacity-80 hover:cursor-pointer`}>
             <p className={faqStyles.stickerText}>1300 000 000</p>
           </div>
-          <div className={`${faqStyles.sticker} bg-[#024881]`}>
+          <div className={`${faqStyles.sticker} bg-[#024881] hover:opacity-80 hover:cursor-pointer`}>
             <p className={faqStyles.stickerText}>Get a free quote</p>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

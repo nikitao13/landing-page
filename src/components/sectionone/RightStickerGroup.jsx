@@ -1,20 +1,22 @@
-import BannerSticker from "./BannerSticker";
+import RightSticker from "./RightSticker";
 
-export default function StickerGroup() {
+export default function RightStickerGroup() {
   return (
     <div className="flex gap-4 h-[200px]">
-      <BannerSticker
+      <RightSticker
         num={"4.9"}
         text={"Facebook"}
         rating={true}
         colour={"bg-sticker-blue"}
       />
-      <BannerSticker
+
+      <RightSticker
         num={"5.0"}
         text={"Google"}
         rating={true}
         colour={"bg-sticker-red"}
       />
+
       <div className="antialiased leading-snug -skew-x-12 relative flex flex-col items-center justify-center bg-sticker-yellow w-40 h-44">
         <div className="text-[3.8rem] font-black skew-x-12 flex flex-col items-center justify-center">
           <h1>24h</h1>

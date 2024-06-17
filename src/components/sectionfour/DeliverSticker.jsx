@@ -7,8 +7,7 @@ export default function DeliverSticker({ Icon, title, text }) {
     icon: "text-light-blue text-6xl m-4 skew-x-6",
     header:
       "mt-8 max-w-max text-light-blue font-extrabold leading-5 skew-x-6 text-2xl",
-    text:
-        "skew-x-6 text-black pl-5 mt-0.5 leading-4 text-sm font-light"
+    text: "skew-x-6 text-black pl-5 mt-0.5 leading-4 text-sm font-light"
   };
 
   return (

@@ -7,7 +7,7 @@ export default function BookBanner() {
     iconDiv: "flex gap-2 items-center"
   };
   return (
-    <div className="flex gap-12 w-full px-24 mb-8 h-[550px]">
+    <section className="flex gap-12 w-full px-24 mb-8 h-[550px]">
       <div className="flex flex-col h-[80%] w-2/3 -mt-6">
         <h1 className="font-extrabold text-[4.2rem] mb-10">
           Book a <span className="text-light-blue">plumber</span> near you
@@ -55,7 +55,7 @@ export default function BookBanner() {
             />
             <button
               type="submit"
-              className="bg-light-blue text-white flex justify-center items-center font-semibold"
+              className="bg-light-blue text-white flex justify-center items-center font-semibold hover:opacity-80"
               style={{ width: "calc(33.333% - 0.5rem)" }}
             >
               Get a free quote
@@ -74,9 +74,9 @@ export default function BookBanner() {
         </form>
       </div>
 
-      <div className="h-[70%] w-1/3 bg-gray-700/90 text-white flex justify-center items-center">
+      <div className="h-[70%] w-1/3 bg-gray-700/90 text-white flex justify-center items-center hover:opacity-80 cursor-pointer">
         <h2 className="text-3xl font-extrabold">Map</h2>
       </div>
-    </div>
+    </section>
   );
 }

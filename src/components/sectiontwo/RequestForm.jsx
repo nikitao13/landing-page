@@ -63,7 +63,7 @@ export default function RequestForm() {
           />
           <button
             type="submit"
-            className="bg-light-blue text-white flex justify-center items-center font-semibold"
+            className="hover:opacity-80 bg-light-blue text-white flex justify-center items-center font-semibold"
             style={{ width: "calc(25% - 0.75rem)" }}
           >
             Get a free quote

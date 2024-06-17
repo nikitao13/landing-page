@@ -1,19 +1,19 @@
 import "./styles/main.css";
 import Header from "./components/header/Header";
-import Banner from "./components/banner/Banner";
-import RequestBanner from "./components/request/RequestBanner";
-import RequestForm from "./components/request/RequestForm";
-import Voucher from "./components/services/Voucher";
-import ServicesBanner from "./components/services/ServicesBanner";
-import DeliverHeader from "./components/deliver/DeliverHeader";
-import ServicesFooter from "./components/services/ServicesFooter";
-import DeliverBanner from "./components/deliver/DeliverBanner";
-import FaqsBanner from "./components/faqs/FaqsBanner";
-import LogoBanner from "./components/logobanner/LogoBanner";
-import ClientsBanner from "./components/clients/ClientsBanner";
-import BookBanner from "./components/book/BookBanner";
+import Banner from "./components/sectionone/Banner";
+import RequestBanner from "./components/sectiontwo/RequestBanner";
+import RequestForm from "./components/sectiontwo/RequestForm";
+import Voucher from "./components/sectionthree/Voucher";
+import ServicesBanner from "./components/sectionthree/ServicesBanner";
+import DeliverHeader from "./components/sectionfour/DeliverHeader";
+import ServicesFooter from "./components/sectionthree/ServicesFooter";
+import DeliverBanner from "./components/sectionfour/DeliverBanner";
+import FaqsBanner from "./components/sectionfive/FaqsBanner";
+import LogoBanner from "./components/sectionsix/LogoBanner";
+import ClientsBanner from "./components/sectionseven/ClientsBanner";
+import BookBanner from "./components/sectioneight/BookBanner";
 import Footer from "./components/footer/Footer";
-import RepairOverlay from "./components/faqs/RepairOverlay";
+import RepairOverlay from "./components/sectionfive/RepairOverlay";
 
 function App() {
   return (

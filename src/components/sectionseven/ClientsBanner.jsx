@@ -10,7 +10,7 @@ export default function ClientsBanner() {
     container: "flex flex-col w-[300px] items-center text-center"
   };
   return (
-    <div className="pt-24 w-[90%] mx-auto antialiased mb-36">
+    <section className="pt-24 w-[90%] mx-auto antialiased mb-36">
       <h1 className="font-extrabold text-black/85 text-center text-7xl mb-10">
         What our clients say.
       </h1>
@@ -46,6 +46,6 @@ export default function ClientsBanner() {
           <p className={clientStyles.place}>Ultimo</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

@@ -23,11 +23,11 @@ export default function RepairOverlay() {
           <h2 className="text-5xl font-extrabold">Repair now, Pay Later</h2>
 
           <div className="flex gap-4 mt-8 justify-around font-bold">
-            <div className="border border-white py-3 px-5">
+            <div className="hover:opacity-80 hover:cursor-pointer border border-white py-3 px-5">
               <p>1300 000 000</p>
             </div>
 
-            <div className="border border-white py-3 px-5 bg-white text-light-blue">
+            <div className="hover:opacity-80 hover:cursor-pointer border border-white py-3 px-5 bg-white text-light-blue">
               <p>Get a free quote</p>
             </div>
           </div>

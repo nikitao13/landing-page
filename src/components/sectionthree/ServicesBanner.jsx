@@ -2,7 +2,7 @@ import Ribbon from "./Ribbon";
 
 export default function ServicesBanner() {
   return (
-    <>
+    <section>
       <div className="antialiased flex flex-col w-full items-center mt-6 mb-12">
         <div>
           <h1 className="font-bold tracking-tight text-5xl text-center mb-4">
@@ -20,7 +20,7 @@ export default function ServicesBanner() {
             (service, index) => (
               <div
                 key={index}
-                className="relative bg-gray-500/70 h-[210px] w-[310px]"
+                className="hover:opacity-80 hover:cursor-pointer relative bg-gray-500/70 h-[210px] w-[310px]"
               >
                 <Ribbon text={service.toUpperCase()} />
               </div>
@@ -36,13 +36,13 @@ export default function ServicesBanner() {
           ].map((service, index) => (
             <div
               key={index}
-              className="relative bg-gray-500/70 h-[210px] w-[310px]"
+              className="hover:opacity-80 hover:cursor-pointer relative bg-gray-500/70 h-[210px] w-[310px]"
             >
               <Ribbon text={service.toUpperCase()} />
             </div>
           ))}
         </div>
       </div>
-    </>
+    </section>
   );
 }

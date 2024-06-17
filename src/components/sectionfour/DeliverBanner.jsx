@@ -5,7 +5,7 @@ import { HiOutlineClipboardDocumentCheck } from "react-icons/hi2";
 
 export default function DeliverBanner() {
   return (
-    <div className="flex h-[600px] w-[120%] overflow-hidden gap-2">
+    <section className="flex h-[600px] w-[120%] overflow-hidden gap-2">
       <div className="py-20 px-28 text-white -skew-x-12 -ml-20 bg-light-blue h-full w-[50%] flex flex-col">
         <h1 className="text-5xl font-bold skew-x-12">What we deliver</h1>
         <p className="max-w-[85%] ml-6 mt-8 skew-x-12 tracking-wider font-thin">
@@ -33,6 +33,6 @@ export default function DeliverBanner() {
         className="-skew-x-12 bg-cover bg-center h-full w-[50%]"
         style={{ backgroundImage: `url(${BgImage})` }}
       ></div>
-    </div>
+    </section>
   );
 }
